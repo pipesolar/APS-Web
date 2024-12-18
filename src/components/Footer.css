@@ -1,0 +1,44 @@
+.footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background: white;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+  color: #4b5563;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.footer-link {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #6b7280;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+  }
+} 

@@ -1,0 +1,30 @@
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slider-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-group {
+  flex: 1 1 45%; /* Each slider takes up approximately half the container */
+  min-width: 250px;
+}
+
+.amp-service-group {
+  flex: 1 1 100%;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.radio-group label {
+  font-weight: normal;
+}

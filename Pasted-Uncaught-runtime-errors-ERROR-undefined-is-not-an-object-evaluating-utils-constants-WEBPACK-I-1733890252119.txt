@@ -1,0 +1,60 @@
+Uncaught runtime errors:
+×
+ERROR
+undefined is not an object (evaluating '_utils_constants__WEBPACK_IMPORTED_MODULE_2__.SEASONAL_PEAK_USAGE[getSeasonFromMonth(detail.month)]')
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1155:175
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1157:25
+map@[native code]
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1132:47
+renderWithHooks@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:23052:31
+updateFunctionComponent@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:26619:39
+callCallback@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:13308:23
+dispatchEvent@[native code]
+invokeGuardedCallbackDev@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:13352:33
+invokeGuardedCallback@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:13409:40
+beginWork$1@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:33307:32
+performUnitOfWork@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32555:27
+workLoopSync@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32478:26
+renderRootSync@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32451:23
+performConcurrentWorkOnRoot@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:31846:92
+workLoop@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:39886:46
+flushWork@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:39864:26
+performWorkUntilDeadline@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:40101:46
+ERROR
+undefined is not an object (evaluating '_utils_constants__WEBPACK_IMPORTED_MODULE_2__.SEASONAL_PEAK_USAGE[getSeasonFromMonth(detail.month)]')
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1155:175
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1157:25
+map@[native code]
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1132:47
+renderWithHooks@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:23052:31
+updateFunctionComponent@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:26619:39
+callCallback@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:13308:23
+dispatchEvent@[native code]
+invokeGuardedCallbackDev@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:13352:33
+invokeGuardedCallback@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:13409:40
+beginWork$1@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:33307:32
+performUnitOfWork@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32555:27
+workLoopSync@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32478:26
+renderRootSync@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32451:23
+recoverFromConcurrentError@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:31943:38
+performConcurrentWorkOnRoot@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:31856:52
+workLoop@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:39886:46
+flushWork@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:39864:26
+performWorkUntilDeadline@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:40101:46
+ERROR
+undefined is not an object (evaluating '_utils_constants__WEBPACK_IMPORTED_MODULE_2__.SEASONAL_PEAK_USAGE[getSeasonFromMonth(detail.month)]')
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1155:175
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1157:25
+map@[native code]
+@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:1132:47
+renderWithHooks@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:23052:31
+updateFunctionComponent@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:26619:39
+beginWork$1@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:33285:27
+performUnitOfWork@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32555:27
+workLoopSync@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32478:26
+renderRootSync@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:32451:23
+recoverFromConcurrentError@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:31943:38
+performConcurrentWorkOnRoot@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:31856:52
+workLoop@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:39886:46
+flushWork@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:39864:26
+performWorkUntilDeadline@https://55e183e2-a673-49e0-8806-049e2ee0fbdc-00-noxh2yyzaio.worf.replit.dev/static/js/bundle.js:40101:46

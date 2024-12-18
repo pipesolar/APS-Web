@@ -1,0 +1,10 @@
+# Create .gitignore file
+touch .gitignore
+
+# Add these common entries to .gitignore
+node_modules/
+.env
+.env.local
+.DS_Store
+build/
+dist/

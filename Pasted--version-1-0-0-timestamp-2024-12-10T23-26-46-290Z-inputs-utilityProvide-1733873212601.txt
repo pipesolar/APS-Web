@@ -1,0 +1,374 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2024-12-10T23:26:46.290Z",
+  "inputs": {
+    "utilityProvider": "SRP",
+    "annualConsumption": 20000,
+    "preSolarOnPeak": 60,
+    "batteryCapacity": 10,
+    "solarGeneration": 15000,
+    "ampService": 200
+  },
+  "monthlyCalculations": [
+    {
+      "month": "January",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0674,
+        "offPeakRate": 0.0634
+      },
+      "demandCharges": {
+        "monthlyConsumption": 1426,
+        "season": "Winter",
+        "batteryCapacity": 10,
+        "peakDemand": 1,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 1,
+            "rate": 3.49,
+            "charge": 3.49
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 5.93,
+        "offPeakEnergy": 1.37,
+        "solarCredits": 0,
+        "totalCost": 43.22
+      }
+    },
+    {
+      "month": "February",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0674,
+        "offPeakRate": 0.0634
+      },
+      "demandCharges": {
+        "monthlyConsumption": 1238,
+        "season": "Winter",
+        "batteryCapacity": 10,
+        "peakDemand": 1,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 1,
+            "rate": 3.49,
+            "charge": 3.49
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": -36.39,
+        "solarCredits": 11.65,
+        "totalCost": 24.28
+      }
+    },
+    {
+      "month": "March",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0674,
+        "offPeakRate": 0.0634
+      },
+      "demandCharges": {
+        "monthlyConsumption": 1070,
+        "season": "Winter",
+        "batteryCapacity": 10,
+        "peakDemand": 1,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 1,
+            "rate": 3.49,
+            "charge": 3.49
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": -45.46,
+        "solarCredits": 35.83,
+        "totalCost": 0.1
+      }
+    },
+    {
+      "month": "April",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0674,
+        "offPeakRate": 0.0634
+      },
+      "demandCharges": {
+        "monthlyConsumption": 1096,
+        "season": "Winter",
+        "batteryCapacity": 10,
+        "peakDemand": 1,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 1,
+            "rate": 3.49,
+            "charge": 3.49
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": -43.97,
+        "solarCredits": 43.89,
+        "totalCost": -7.96
+      }
+    },
+    {
+      "month": "May",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0663,
+        "offPeakRate": 0.0561
+      },
+      "demandCharges": {
+        "monthlyConsumption": 1430.0000000000002,
+        "season": "Summer",
+        "batteryCapacity": 10,
+        "peakDemand": 3,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 3,
+            "rate": 7.89,
+            "charge": 23.669999999999998
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": -19.89,
+        "offPeakEnergy": 11.19,
+        "solarCredits": 24.92,
+        "totalCost": 42.38
+      }
+    },
+    {
+      "month": "June",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0663,
+        "offPeakRate": 0.0561
+      },
+      "demandCharges": {
+        "monthlyConsumption": 2018,
+        "season": "Summer",
+        "batteryCapacity": 10,
+        "peakDemand": 3,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 3,
+            "rate": 7.89,
+            "charge": 23.669999999999998
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": -14.93,
+        "offPeakEnergy": 22.66,
+        "solarCredits": 2.89,
+        "totalCost": 75.88
+      }
+    },
+    {
+      "month": "July",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0823,
+        "offPeakRate": 0.0613
+      },
+      "demandCharges": {
+        "monthlyConsumption": 2826,
+        "season": "SummerPeak",
+        "batteryCapacity": 10,
+        "peakDemand": 4,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 3,
+            "rate": 9.43,
+            "charge": 28.29
+          },
+          {
+            "range": "3-10 kW",
+            "kw": 1,
+            "rate": 17.51,
+            "charge": 17.51
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": 45.38,
+        "solarCredits": 0,
+        "totalCost": 123.62
+      }
+    },
+    {
+      "month": "August",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0823,
+        "offPeakRate": 0.0613
+      },
+      "demandCharges": {
+        "monthlyConsumption": 2834,
+        "season": "SummerPeak",
+        "batteryCapacity": 10,
+        "peakDemand": 4,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 3,
+            "rate": 9.43,
+            "charge": 28.29
+          },
+          {
+            "range": "3-10 kW",
+            "kw": 1,
+            "rate": 17.51,
+            "charge": 17.51
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": 46.78,
+        "solarCredits": 0,
+        "totalCost": 125.02
+      }
+    },
+    {
+      "month": "September",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0663,
+        "offPeakRate": 0.0561
+      },
+      "demandCharges": {
+        "monthlyConsumption": 2324,
+        "season": "Summer",
+        "batteryCapacity": 10,
+        "peakDemand": 3,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 3,
+            "rate": 7.89,
+            "charge": 23.669999999999998
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": 33.79,
+        "solarCredits": 0,
+        "totalCost": 89.9
+      }
+    },
+    {
+      "month": "October",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0663,
+        "offPeakRate": 0.0561
+      },
+      "demandCharges": {
+        "monthlyConsumption": 1686,
+        "season": "Summer",
+        "batteryCapacity": 10,
+        "peakDemand": 3,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 3,
+            "rate": 7.89,
+            "charge": 23.669999999999998
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": 26.64,
+        "solarCredits": 0,
+        "totalCost": 82.75
+      }
+    },
+    {
+      "month": "November",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0674,
+        "offPeakRate": 0.0634
+      },
+      "demandCharges": {
+        "monthlyConsumption": 948.0000000000001,
+        "season": "Winter",
+        "batteryCapacity": 10,
+        "peakDemand": 1,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 1,
+            "rate": 3.49,
+            "charge": 3.49
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 0,
+        "offPeakEnergy": 2.61,
+        "solarCredits": 0,
+        "totalCost": 38.54
+      }
+    },
+    {
+      "month": "December",
+      "consumption": 1666.6666666666667,
+      "solarProduction": 0,
+      "energyCalculation": {
+        "onPeakRate": 0.0674,
+        "offPeakRate": 0.0634
+      },
+      "demandCharges": {
+        "monthlyConsumption": 1104,
+        "season": "Winter",
+        "batteryCapacity": 10,
+        "peakDemand": 1,
+        "tiers": [
+          {
+            "range": "0-3 kW",
+            "kw": 1,
+            "rate": 3.49,
+            "charge": 3.49
+          }
+        ]
+      },
+      "rawValues": {
+        "onPeakEnergy": 1.47,
+        "offPeakEnergy": 12.25,
+        "solarCredits": 0,
+        "totalCost": 49.65
+      }
+    }
+  ]
+}

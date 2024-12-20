@@ -295,7 +295,8 @@ const Results = React.memo(({
         const monthProduction = detail.solarCalculation.monthlySolar;
 
         const netAmount = (monthConsumption - monthProduction);
-        const solarCreds = netAmount * SOLAR_CREDIT_RATE;
+        const netPostSolar = (netAmount - detail.demandCharges.calculation.batteryCapacity * DAYS_PER_MONTH)
+        const solarCreds = netPostSolar * SOLAR_CREDIT_RATE;
 
         return solarCreds.toFixed(2);
       })()}
@@ -307,7 +308,8 @@ const Results = React.memo(({
         const monthProduction = detail.solarCalculation.monthlySolar;
 
         const netAmount = (monthConsumption - monthProduction);
-        const solarCreds = netAmount * SOLAR_CREDIT_RATE;
+        const netPostSolar = (netAmount - detail.demandCharges.calculation.batteryCapacity * DAYS_PER_MONTH)
+        const solarCreds = netPostSolar * SOLAR_CREDIT_RATE;
 
         return (
           <>
@@ -315,7 +317,9 @@ const Results = React.memo(({
             <ul>
               <li>Consumption: {Math.round(monthConsumption)} kWh</li>
               <li>Production: {Math.round(monthProduction)} kWh</li>
-              <li>Net Amount: {Math.round(netAmount)} kWh</li>
+              <li>BatteryCapacity: {detail.demandCharges.calculation.batteryCapacity * DAYS_PER_MONTH} kWh</li>
+              <li>Net Amount Pre-Battery: {Math.round(netAmount)} kWh</li>
+              <li>Net Amount Post-Battery: {Math.round(netAmount-detail.demandCharges.calculation.batteryCapacity * DAYS_PER_MONTH)} kWh</li>
             </ul>
 
             <h5>Credit Calculation:</h5>
@@ -332,7 +336,7 @@ const Results = React.memo(({
                 <tbody>
                   <tr>
                     <td>Net Usage</td>
-                    <td>{Math.round(netAmount)}</td>
+                    <td>{Math.round(netAmount-detail.demandCharges.calculation.batteryCapacity * DAYS_PER_MONTH)}</td>
                     <td>${SOLAR_CREDIT_RATE.toFixed(5)}</td>
                     <td>-${solarCreds.toFixed(2)}</td>
                   </tr>
